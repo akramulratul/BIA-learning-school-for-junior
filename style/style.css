@@ -1,3 +1,62 @@
 * {
-  background: purple;
+  margin: 0;
+  padding: 0;
+}
+.css-1mybp7c-buttonStyle-Button {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 45px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 13px;
+  cursor: pointer;
+}
+/* @media (min-width: 1250px) .css-1mybp7c-buttonStyle-Button {
+  height: 48px;
+} */
+.css-1mybp7c-buttonStyle-Button.button {
+  margin-left: 42px;
+  padding: 0px 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 96, 253);
+}
+.css-1mybp7c-buttonStyle-Button.button--cta {
+  padding: 0px 30px;
+  font-size: 14px;
+  box-shadow: rgb(67 96 253 / 30%) 0px 8px 20px 0px;
+}
+a {
+  text-decoration: none;
+}
+.css-1mybp7c-buttonStyle-Button.button:hover,
+.css-1mybp7c-buttonStyle-Button.button .button:focus {
+  box-shadow: rgb(168 168 168 / 40%) 0px 1px 10px 0px;
+  transform: translateY(-0.1em);
+  transition: all 0.3s ease 0s;
+}
+
+.header-style .nav-items {
+  margin-left: 42px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 650;
+  color: black;
+}
+.background-image {
+  background-image: url(../images/homebg1.png);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1550px 750px; */
+  display: flex;
+  min-width: 600px;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 85vh;
+  position: relative;
 }
