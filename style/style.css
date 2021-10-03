@@ -66,7 +66,26 @@ a {
   min-height: 180vh;
   background-size: 100% 100%;
   margin-top: -283px;
-  text-shadow: rgb(0 0 0 / 50%) 1px 1px 3px;
+}
+.for-responsive {
+  color: #ffff;
+}
+.for-down {
+  margin-top: 80vh;
+}
+@media only screen and (max-width: 960px) {
+  /* For mobile phones: */
+  .background-two {
+    background-image: none;
+    margin-top: 0px;
+  }
+  .for-responsive {
+    color: black;
+  }
+  .for-down {
+    margin-top: 1vh;
+    padding-top: 0px;
+  }
 }
 .background-third {
   background-image: url(../images/mapbg.png);
@@ -81,7 +100,7 @@ a {
   margin: 0 auto 0;
   position: absolute;
 }
-.heading-style {
+/* .heading-style {
   position: relative;
   margin-top: 30px;
   padding-bottom: 50px;
@@ -119,17 +138,18 @@ a {
   height: 22px;
   margin-right: 17px;
   background: url(../images/icon.svg) center center / contain no-repeat;
-}
-.image-position {
+} */
+/* .image-position {
   width: 100%;
-  height: 100%;
+  height: 53%;
   background: url(../images/rocket.png);
   background-position: right;
   background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
-}
+} */
 
-@media (min-width: 1250px) {
+/* @media (min-width: 1250px) {
   .image-position {
     position: absolute;
     left: 50%;
@@ -146,6 +166,12 @@ a {
     animation-play-state: running;
     animation-name: animation-1mud10m;
   }
+} */
+@media screen and (max-width: 600px) {
+  .image-position {
+    width: 100px;
+    height: 200px;
+  }
 }
 
 /* @media only screen and (max-width: 320px) {
@@ -153,17 +179,16 @@ a {
   }
 } */
 
-.element-down {
-  margin-top: 70vh;
-}
-
 .discover {
   background: red;
 }
 .footer-background {
   background: url(../images/Footer.svg);
   background-repeat: no-repeat;
-  width: 100%;
+  width: 99%;
   height: 100%;
   position: relative;
+}
+.font-size {
+  font-size: large;
 }
